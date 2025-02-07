@@ -1,7 +1,7 @@
-192.168.0.1
-192.168.0.2  #these are the servers which belongs to no group
-[web]
+ #these are the servers which belongs to no group
 
+[web]
+54.82.227.92 
 
 [catalogue]
 
