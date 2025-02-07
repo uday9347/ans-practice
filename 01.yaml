@@ -1,0 +1,14 @@
+- name: install and run nginix
+  hosts: web 
+  become: yes  #run this script with the root user
+  tasks: 
+    - name: install nginx package
+      ansible.builtin.package:
+        name: nginx
+        state: present
+
+  #next nginx service module 
+    - name: run nginx module
+      ansibile.builtin.service:
+        name: nginx
+        state: started

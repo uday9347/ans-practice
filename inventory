@@ -1,0 +1,12 @@
+192.168.0.1
+192.168.0.2  #these are the servers which belongs to no group
+[web]
+
+
+[catalogue]
+
+
+[mongodb]
+
+
+[roboshop:children]  #this is nothing but group of groups of servers !!
